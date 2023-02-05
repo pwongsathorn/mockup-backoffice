@@ -1,0 +1,16 @@
+// Color --------------------------------------------
+//Color usage:
+//-- For Base color, use normal variable
+//-- Example: $primary
+//-- For Lighten/Darken variants, use function
+//-- Example: primary('lighten4')
+$primary: var(--v-primary-base);
+$secondary: var(--v-secondary-base);
+$main: var(--v-main-base);
+$error: var(--v-error-base);
+$success: var(--v-success-base);
+$info: var(--v-info-base);
+$warning: var(--v-warning-base);
+
+// Structure --------------------------------------------
+$navbarHeight: 72px;

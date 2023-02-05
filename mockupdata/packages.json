@@ -1,0 +1,42 @@
+[
+  {
+    "package_live_id": 15,
+    "package_live_type_id": 1,
+    "is_delete": 0,
+    "is_active": 0,
+    "package_live_create": "2022-12-14T10:48:27.000Z",
+    "package_live_update": "2023-01-31T10:21:21.000Z",
+    "package_live_name": "14.12HotDeal",
+    "package_live_description": "\"พิเศษสุด!! โปรโมชั่นเฉพาะวันนี้เท่านั้น!!!\" รับเต็มๆ 125 Credits เมื่อเติมเงินจำนวน 1,200 บาท ",
+    "package_live_price": 5000,
+    "package_live_amount": 2,
+    "package_live_type": {
+      "package_live_type_id": 1,
+      "is_delete": 0,
+      "is_active": 1,
+      "package_live_type_create": "2022-10-13T04:54:49.000Z",
+      "package_live_type_update": "2022-10-13T10:26:31.000Z",
+      "package_live_type_name": "แบบคู่"
+    }
+  },
+  {
+    "package_live_id": 14,
+    "package_live_type_id": 2,
+    "is_delete": 0,
+    "is_active": 1,
+    "package_live_create": "2022-12-02T08:56:37.000Z",
+    "package_live_update": "2022-12-16T09:50:36.000Z",
+    "package_live_name": "รับชม Live สด 20 คู่",
+    "package_live_description": "รับชมถ่ายทอดสดการแข่งขันแบบ Premium จำนวน 20 คู่",
+    "package_live_price": 3000,
+    "package_live_amount": 30,
+    "package_live_type": {
+      "package_live_type_id": 2,
+      "is_delete": 0,
+      "is_active": 1,
+      "package_live_type_create": "2022-10-13T04:55:02.000Z",
+      "package_live_type_update": "2022-10-13T10:26:59.000Z",
+      "package_live_type_name": "แบบระยะเวลา"
+    }
+  }
+]

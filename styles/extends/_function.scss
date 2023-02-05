@@ -1,0 +1,49 @@
+
+// shorter rgba
+@function RGBA($c, $a) {
+  @return rgba($color: $c, $alpha: $a)
+}
+// lighten color
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage)
+}
+//darken color
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage)
+}
+
+//Grid8 Space Calculator
+@function gap($number) {
+  @return $gap * $number;
+}
+
+//primary shading
+@function primary($level) {
+  @return var(--v-primary-#{$level})
+}
+//secondary shading
+@function secondary($level) {
+  @return var(--v-secondary-#{$level})
+}
+//main shading
+@function main($level) {
+  @return var(--v-main-#{$level})
+}
+//error shading
+@function error($level) {
+  @return var(--v-error-#{$level})
+}
+
+//success shading
+@function success($level) {
+  @return var(--v-success-#{$level})
+}
+//info shading
+@function info($level) {
+  @return var(--v-info-#{$level})
+}
+
+//warning shading
+@function warning($level) {
+  @return var(--v-warning-#{$level})
+}
